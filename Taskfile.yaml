@@ -1,0 +1,7 @@
+version: 3
+
+tasks:
+  flyway-fresh:
+    cmds:
+      - ./gradlew flywayClean
+      - ./gradlew flywayMigrate
