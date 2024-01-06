@@ -29,7 +29,6 @@
     "**/*.tsx"
   ],
   "exclude": [
-    "node_modules",
-    "__generated__"
+    "node_modules"
   ]
 }
